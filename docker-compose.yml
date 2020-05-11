@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  tutorial:
+    image: golang:1.14.0
+    tty: true
+    working_dir: /go/src/tutorial
+    volumes:
+      - ./:/go/src/tutorial

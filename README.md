@@ -23,14 +23,5 @@ test the program.
 
 ### Running with Docker
 
-To build the image from the Dockerfile, run:
-
-`docker build -t project-fifa-world-cup .`
-
-To start an interactive shell, run:
-
-`docker run -it --rm --name run-fifa project-fifa-world-cup`
-
-From inside the shell, run the tests with:
-
-`go test handlers/*`
+1. docker-compose run --rm tutorial sh
+3. Follow Testing steps
