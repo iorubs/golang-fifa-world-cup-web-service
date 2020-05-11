@@ -23,5 +23,5 @@ test the program.
 
 ### Running with Docker
 
-1. docker-compose run --rm tutorial sh
+1. docker-compose run --rm tutorial bash
 3. Follow Testing steps

@@ -4,6 +4,6 @@ services:
   tutorial:
     image: golang:1.14.0
     tty: true
-    working_dir: /go/src/tutorial
+    working_dir: /go/src/golang-fifa-world-cup-web-service
     volumes:
-      - ./:/go/src/tutorial
+      - ./:/go/src/golang-fifa-world-cup-web-service
